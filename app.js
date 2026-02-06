@@ -138,3 +138,22 @@ function addTwoStrings(noun = 'cat', adjective = 'orange') {
 }
 
 console.log(addTwoStrings('dog', 'blue'));
+
+// ! Exercise 9:
+// a. Convert the following `if...else` statement into a ternary:
+//
+//    if (pizza === 'tasty') {
+//      console.log('yum');
+//    } else {
+//      console.log('yuck');
+//    }
+//
+// Starting code (don't modify this):
+
+const pizza = 'tasty';
+
+// Your code here:
+
+let taste = pizza === 'tasty' ? 'yum' : 'yuck';
+
+console.log(taste);
